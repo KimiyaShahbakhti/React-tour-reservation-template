@@ -1,0 +1,70 @@
+.nav{
+    background-color: transparent;
+    color: black;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.nav .nav-link{
+    color: white;
+}
+.nav-responsive{
+    display: none;
+}
+.logsign-btn{
+    position: absolute;
+    left: 10px;
+}
+.nav-item{
+    margin-right: 15px;
+}
+.nav-item:first-child{
+    margin-right: 0px;
+}
+.navbar-brand{
+    font-size: 24px;
+    color: white;
+}
+
+@media (max-width:600px) {
+    .nav-responsive{
+        display: block;
+        background-color: #558985;
+        padding: 10px;
+    }
+    .offcanvas{
+        background-color: #558985;   
+    }
+    .offcanvas-title,.nav-link{
+        color: white;
+        padding: 20px;
+    }
+    .nav-item{
+        margin-right: 0px;
+    }
+    .nav-responsive .navbar-brand{
+        color: white;
+        font-size: 30px;
+        
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .nav-item{
+        border-top: 1px solid white;
+    }
+    .navbar-toggler{
+        background-color: white;
+    }
+    .nav{
+        display: none;
+    }
+    .logsign-btn{
+        bottom: 30px;
+        width: 90%;
+        padding: 15px;
+    }
+    .nav-item:last-child{
+        margin-top: 150px;
+        border: none;
+    }
+}

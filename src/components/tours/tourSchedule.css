@@ -1,0 +1,88 @@
+.tour-schedule{
+    margin-top: 50px;
+}
+.table-content{
+    width: 100%;
+    height: 300px;
+    background-color: #64b1aa;
+    padding: 40px;
+}
+table{
+    width: 85% !important;
+    margin:auto;
+    background-color: #3e7772;
+}
+tr,td{
+    border: none;
+}
+td{
+    padding: 15px 0px !important;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    transition: 0.2s;
+    font: bold !important;
+}
+.tour-schedule p{
+    text-align: right;
+}
+p i{
+    margin-left: 10px;
+}
+p i:last-child{
+    margin-right: 10px;
+}
+.guide-choose-tour{
+    font-weight: bold;
+    text-align: center;
+}
+.guide-choose-tour p{
+    text-align: right !important;
+}
+.info-tour-box{
+    margin-top: -100px !important;
+    background-color: rgb(248, 248, 248);
+    width: 85%;
+    margin: auto;
+}
+.showTours{
+    margin: auto;
+    padding: 40px 25px;
+    width: 700px;
+    border-radius: 5px;
+}
+.select p{
+    display: inline;
+}
+.select select{
+    border-radius: 25px;
+}
+.select .selectP{
+    float: left;
+}
+.show-tour-info{
+   text-align: center;
+}
+.done-btn-box{
+    text-align: center;
+    margin: auto;
+}
+.list-group{
+    display: contents;
+}
+.list-group a:hover{
+    box-shadow:  0px 0px 5px lightgrey;
+    transition: 0.2s ease-in-out;
+    
+}
+.extra-info-tour{
+    font-size: 15px;
+    color: rgb(140, 162, 184);
+}
+h6{
+    color: rgb(90, 90, 90);
+}

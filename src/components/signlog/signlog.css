@@ -1,0 +1,64 @@
+.signup {
+  background-color: black;
+  padding: 70px;
+  margin-top: -60px;
+}
+.signup .container {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 0px 40px;
+  width: 900px;
+}
+
+.signup p {
+  font-size: 24px;
+  color: white !important;
+
+}
+.signup .already-reg {
+  font-size: 17px;
+  text-align: center;
+  color: white !important;
+
+}
+.signup .or{
+  color: white !important;
+}
+.signup input , .signup select {
+  border: none;
+  border-radius: 0px !important;
+  border-bottom: 1px solid lightgrey !important;
+}
+.phone-input {
+  width: 85% !important;
+  border-left: 1px solid lightgrey !important;
+}
+.phone-select {
+    border: none;
+  border-right: 1px solid lightgrey !important;
+  border-bottom: 1px solid lightgrey !important;
+  background-color: whitesmoke;
+  text-align: center;
+  width: 15% !important;
+}
+.phone-select:hover {
+background-color: lightgrey;
+  
+}
+
+.signup .form-control:not(select) {
+  padding: 1 0.5rem 0 0.5rem;
+}
+
+.signup select .form-control {
+  height: 52px;
+  padding-left: 0 0.5rem;
+}
+
+.signup .form-control::placeholder {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 0 0.9rem;
+}
+.signup .form-control:focus {
+  box-shadow: none;
+}

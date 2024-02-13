@@ -1,0 +1,56 @@
+
+.cardGuid .cols-md-4{
+    display: flex;
+}
+.cardGuid .cols-md-4 .col{
+    border: none;
+}
+.cardGuid .cols-md-4 .card{
+    margin: 10px;
+    box-shadow: 1px 3px 7px lightgrey;
+    border-radius: 15px;
+}
+span{
+    position: relative;
+    right: 37%;
+    top: 10%;
+    z-index: 1;
+}
+span i{
+    font-size: 20px;
+    border: 10px solid #558985;
+    border-radius: 50%;
+    color: white;
+    background: #558985;
+}
+span i:first-child,span i:last-child{
+    margin: -10px;
+}
+span i:nth-child(2){
+    font-size: 35px;
+}
+.introh2{
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+}
+.card-title{
+    color: #558985;
+}
+.card-text{
+    font-size: 15px;
+}
+
+p{
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
+hr{
+    top: 300px;
+    position: relative;
+    border: none;
+    height: 6px;
+    background-color: #558985;
+    color: #558985;
+}

@@ -1,0 +1,10 @@
+.scroll{
+    width: 20px;
+    margin: 10px;
+    position: fixed;
+   
+}
+.scroll i{
+    color: gray;
+    font-size: 25px;
+}
