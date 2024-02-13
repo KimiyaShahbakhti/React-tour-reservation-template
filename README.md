@@ -1,12 +1,11 @@
-# React-tour-reservation-template
-React.js template for tour reservation
 # React Tour Reservation Template
-This is a simple tour reservation project implemented as a frontend template using React.js. Feel free to explore the code and use it as a starting point for your own projects or learning purposes!"
+This is a simple tour reservation project implemented as a frontend template using React.js. Feel free to explore the code and use it as a starting point for your own projects or learning purposes!
 
 ## Features
 - Adding different types of tours such as educational, recreational, religious and Etc.
 - Adding details for tours to help users make informed decisions
 - Responsive Design
+
 
 
 ## Usage 
